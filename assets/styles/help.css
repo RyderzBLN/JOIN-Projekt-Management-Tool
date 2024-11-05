@@ -1,0 +1,162 @@
+main {
+  padding-bottom: 40px;
+}
+
+body {
+  height: unset;
+  min-height: 100vh;
+}
+
+.help-main h4 {
+  font-size: 27px;
+}
+
+.help-below-section {
+  max-width: 1014px;
+  margin-left: 328px;
+  margin-top: 32px;
+  margin-right: 40px;
+}
+
+.help-below-section span {
+  color: #29abe2;
+}
+
+.help-main span {
+  color: #29abe2;
+}
+
+.help-main {
+  margin-top: 24px;
+  margin-left: 328px;
+  margin-right: 40px;
+  max-width: 1014px;
+}
+
+.whats-join-section {
+  max-width: 1014px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.whats-join-section p {
+  line-height: 19.2px;
+}
+
+.how-to-use-head {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.how-to-use-p {
+  margin-bottom: 16px;
+}
+
+.how-to-use-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.how-to-use-section h3 {
+  font-size: 27px;
+  margin-right: 35px;
+}
+
+.how-to-use-section h4 {
+  font-size: 20px;
+}
+
+.how-to-use-section p {
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.howto-heading-and-p {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.how-to-use-containers {
+  display: flex;
+}
+
+.head-and-arrow {
+  margin-top: 96px;
+}
+
+@media (max-width: 1320px) {
+  .head-and-arrow {
+    padding-top: 96px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head-and-arrow {
+    padding-top: 80px;
+    margin-top: 0;
+    align-items: flex-end;
+  }
+  .help-below-section p {
+    font-size: 16px;
+  }
+
+  .whats-join-section p {
+    font-size: 16px;
+  }
+  .how-to-use-section h4 {
+    font-size: 27px;
+    margin-bottom: 16px;
+  }
+
+  .how-to-use-section h3 {
+    font-size: 27px;
+  }
+  .help-main {
+    margin-left: 16px;
+    padding-bottom: 100px;
+  }
+  .help-below-section {
+    margin-left: 16px;
+  }
+
+  .help-head {
+    margin-left: 16px;
+  }
+  .help-below-section {
+    margin-left: 16px;
+  }
+
+  .how-to-use-container p {
+    font-size: 15px;
+    margin-bottom: 16px;
+  }
+
+  .help-head {
+    margin-left: 16px;
+    margin-top: 0px;
+  }
+
+  .whats-join-section {
+    max-width: 100%;
+  }
+
+  .p-whats-join {
+    margin-top: 16px;
+  }
+
+  .help-main {
+    max-width: 100%;
+  }
+
+  .how-to-use-section {
+    max-width: 100%;
+  }
+
+  .help-below-section p {
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+}

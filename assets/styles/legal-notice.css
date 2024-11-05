@@ -1,0 +1,97 @@
+/*::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}*/
+
+.legal-body {
+  height: unset;
+  min-height: 100vh;
+}
+
+.legal-notice-head {
+  font-size: 61px;
+  line-height: 73.2px;
+}
+
+.imprint-section-head {
+  font-size: 27px;
+  line-height: 32px;
+  margin-bottom: 16px;
+  padding: 0px;
+}
+
+.legal-main h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.lega .legal-main p {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.legal-main span {
+  color: #29abe2;
+}
+
+.legal-main {
+  max-width: 1014px;
+  margin-left: 328px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-right: 40px;
+}
+
+.legal-main li {
+  line-height: 24px;
+  font-size: 20px;
+  list-style-type: disc;
+  margin-left: 24px;
+}
+
+.exploring-head {
+  margin-top: 16px;
+}
+
+.scope-belowe-section-p {
+  margin-top: 24px;
+}
+
+.head-and-arrow {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (max-width: 1320px) {
+  .legal-main {
+    padding-top: 96px;
+  }
+}
+
+@media (max-width: 768px) {
+  .legal-main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 16px;
+  }
+  .legal-main h1 {
+    margin-top: 0px;
+  }
+  .imprint-section-head {
+    font-size: 27px;
+  }
+  .legal-main li {
+    font-size: 16px;
+  }
+  .imprint-section h3 {
+    font-size: 20px;
+    margin-top: 24px;
+  }
+  .last-p-legal-notice {
+    margin-bottom: 16px;
+  }
+  .legal-main p {
+    font-size: 16px;
+  }
+}

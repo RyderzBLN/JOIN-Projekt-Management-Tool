@@ -1,0 +1,53 @@
+.policy-main h1 {
+  font-size: 61px;
+  line-height: 73.2px;
+}
+
+.policy-main h2 {
+  font-size: 27px;
+}
+
+.policy-main p {
+  margin-top: 10px;
+  line-height: 19.2px;
+}
+
+.policy-container {
+  max-width: 1016px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1016px;
+  margin-top: 32px;
+  margin-left: 328px;
+  margin-right: 40px;
+  gap: 35px;
+}
+
+@media (max-width: 1320px) {
+  .policy-main {
+    padding-top: 96px;
+  }
+}
+
+@media (max-width: 768px) {
+  .policy-main {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .policy-container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .policy-main h1 {
+    font-size: 47px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .policy-main h1 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-left: 0px;
+  }
+}
