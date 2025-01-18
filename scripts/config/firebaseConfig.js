@@ -12,5 +12,4 @@ const firebaseConfig = {
    * The Firebase Realtime Database API key.
    * @type {string}
    */
-  apiKey: "https://join-own-default-rtdb.europe-west1.firebasedatabase.app/",
 };

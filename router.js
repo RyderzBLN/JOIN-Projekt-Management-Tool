@@ -14,6 +14,7 @@ const currentUser = {
   isLoggedIn: false,
 };
 
+
 /**
  * Initializes the current user object by loading it from
  * local storage and saving it back to local storage if it

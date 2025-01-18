@@ -4,10 +4,13 @@
  * form with those credentials if available.
  */
 async function init() {
+  currentUser.isLoggedIn = false;
   triggerLogoAnimation();
   const rememberedCredentials = checkAndLoadUserCredentialsFromLocalStorage();
   fillCredentialsInLoginForm(rememberedCredentials);
 }
+
+
 
 /**
  * Handles the login process, given a boolean indicating whether a guest login should be performed.
