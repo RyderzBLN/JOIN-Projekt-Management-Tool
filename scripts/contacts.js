@@ -8,7 +8,6 @@
 async function init() {
   loadComponents();
   await getContactsFromData("guest");
-  await getTodosFromData("guest");
   renderContactsPage();
 }
 

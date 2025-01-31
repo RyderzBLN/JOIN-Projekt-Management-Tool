@@ -16,10 +16,7 @@ function generateContactListHtml(contacts, assignedMembers = [], filter = "") {
     .map((contact) => {
       const initials = getInitialsFromContact(contact);
       const originalIndex = contacts.indexOf(contact);
-
-      const isSelected = objectToArray(assignedMembers).some(
-        (member) => member.name.toLowerCase() === contact.name.toLowerCase()
-      );
+      const isSelected = assignedMembers.some((member) => member.toLowerCase() === contact.name.toLowerCase());
 
       return contactListItemTemplate(contact, originalIndex, initials, isSelected);
     })
